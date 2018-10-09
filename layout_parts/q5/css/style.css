@@ -1,5 +1,104 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+.mainbox {
+  background-color: #ECF1F2;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  margin: 0 auto;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 100px
+}
+.minibox1 {
+  background-color: #ffefd3;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 40px;
+  left: 200px;
+}
+.minibox2 {
+  background-color: #7084de;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 120px;
+  left: 280px;
+}
+.minibox3 {
+  background-color: #d0ecea;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 200px;
+  left: 360px;
+}
+.minibox4 {
+  background-color: #8b7a5e;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 280px;
+  left: 280px;
+  z-index: 1;
+}
+.minibox5 {
+  background-color: #9fd6d2;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 360px;
+  left: 200px;
+  z-index: 2;
+}
+.minibox6 {
+  background-color: #fffee4;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 280px;
+  left: 120px;
+  z-index: 3;
+}
+.minibox7 {
+  background-color: #deae70;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 200px;
+  left: 40px;
+  z-index: 4;
+}
+.minibox8 {
+  background-color: #de70cf;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  z-index: 5;
+}
+.minibox9 {
+  background-color: #2b69a3;
+  width: 100px;
+  height: 100px;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 100px;
+  position: absolute;
+  top: 20px;
+  left: 180px;
+}
+.minimumbox1 {
+  background-color: #ffefd3;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0px;
+  left: 80px;
+}
 /* 回答はここに書いてね */
