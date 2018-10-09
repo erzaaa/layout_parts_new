@@ -6,33 +6,25 @@
   display: block;
   clear: both;
 }
-.mainbox {
+.clearfix {
   background-color: #eff3f4;
   margin: 0 auto;
-  width: 940px;
-  height: 500px;
-  position: relative;
-}
-.clearbox {
-  position: absolute;
-  top: 20px;
-  left: 20px;
+  padding: 20px;
+  width: 900px;
 }
 .bluebox {
-  width: 230px;
-  height: 420px;
-  background-color: #eaf4ff;
-  border: solid 20px #3274ae;
   float: left;
   margin-left: 20px;
+  padding: 20px;
+  width: 230px;
+  background-color: #3274ae;
 }
 .textbox {
-  width: 170px;
-  height: 360px;
   padding: 20px;
   border: solid 10px #022336;
+  background-color: #eaf4ff;
 }
-.clearbox .bluebox:first-child {
+.clearfix .bluebox:first-child {
   margin-left: 0;
 }
 .text {

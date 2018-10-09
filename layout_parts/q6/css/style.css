@@ -1,18 +1,29 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.textbox1 {
+.textalign-box {
   text-align: center;
+}
+.textbox {
   background-color: #e6f2ff;
   width: 90px;
-  margin: 0 auto;
   padding: 10px 0;
+  text-align: center;
+}
+.textbox1 {
+  display: inline-block;
+}
+.textbox2 {
+  margin: 0 auto;
+}
+.table-box {
+  display: table;
 }
 .topbox {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
+  display: table-cell;
+  background-color: #ECF1F2;
+  text-align: center;
+  vertical-align: middle;
 }
 .bottombox {
   display: flex;
@@ -20,23 +31,26 @@
   justify-content: center;
   height: 100%;
 }
-.textbox2 {
+.textbox3 {
   background-color: #fff;
   padding: 10px;
+  display: inline-block;
 }
 .leftbox {
   position: relative;
 }
-.textbox3 {
-  margin: 0 auto;
+.textbox4 {
   position: absolute;
-  top: 85px;
-  left: 95px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
 }
 .rightbox {
   position: relative;
 }
-.textbox4 {
+.textbox5 {
   position: absolute;
   top: 50%;
   left: 50%;

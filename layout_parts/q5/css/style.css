@@ -12,93 +12,77 @@
   text-align: center;
   line-height: 100px
 }
-.minibox1 {
-  background-color: #ffefd3;
+.q5-box {
   width: 100px;
   height: 100px;
   position: absolute;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 100px;
+  text-align: center;
+}
+.minibox1 {
+  background-color: #ffefd3;
   top: 40px;
   left: 200px;
+  z-index: 1;
 }
 .minibox2 {
   background-color: #7084de;
-  width: 100px;
-  height: 100px;
-  position: absolute;
   top: 120px;
   left: 280px;
+  z-index: 2;
 }
 .minibox3 {
   background-color: #d0ecea;
-  width: 100px;
-  height: 100px;
-  position: absolute;
   top: 200px;
   left: 360px;
+  z-index: 3;
 }
 .minibox4 {
   background-color: #8b7a5e;
-  width: 100px;
-  height: 100px;
-  position: absolute;
   top: 280px;
   left: 280px;
-  z-index: 1;
+  z-index: 4;
 }
 .minibox5 {
   background-color: #9fd6d2;
-  width: 100px;
-  height: 100px;
-  position: absolute;
   top: 360px;
   left: 200px;
-  z-index: 2;
+  z-index: 5;
 }
 .minibox6 {
   background-color: #fffee4;
-  width: 100px;
-  height: 100px;
-  position: absolute;
   top: 280px;
   left: 120px;
-  z-index: 3;
+  z-index: 6;
 }
 .minibox7 {
   background-color: #deae70;
-  width: 100px;
-  height: 100px;
-  position: absolute;
   top: 200px;
   left: 40px;
-  z-index: 4;
+  z-index: 7;
 }
 .minibox8 {
   background-color: #de70cf;
-  width: 100px;
-  height: 100px;
-  position: absolute;
   top: 120px;
   left: 120px;
-  z-index: 5;
+  z-index: 8;
 }
 .minibox9 {
-  background-color: #2b69a3;
-  width: 100px;
-  height: 100px;
-  font-size: 35px;
-  font-weight: 700;
-  text-align: center;
-  line-height: 100px;
-  position: absolute;
-  top: 20px;
-  left: 180px;
+  z-index: 10;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: #2B69A3;
 }
-.minimumbox1 {
-  background-color: #ffefd3;
+.minibox8:after {
+  position: absolute;
+  top: 0;
+  right: 0;
   width: 20px;
   height: 20px;
-  position: absolute;
-  top: 0px;
-  left: 80px;
+  background-color: #FFEFD3;
+  content: "";
 }
 /* 回答はここに書いてね */
