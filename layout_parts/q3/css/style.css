@@ -6,6 +6,9 @@
   border: solid 1px #dedede;
   table-layout: fixed;
 }
+table tr {
+  text-align: center
+}
 table th {
   padding: 10px 0;
   color: white;
