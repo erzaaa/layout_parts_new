@@ -6,7 +6,7 @@
   display: block;
   clear: both;
 }
-.clearfix {
+.clearbox {
   background-color: #eff3f4;
   margin: 0 auto;
   padding: 20px;

@@ -6,31 +6,31 @@
   border: solid 1px #dedede;
   table-layout: fixed;
 }
-table tr {
+.food tr {
   text-align: center
 }
-table th {
+.food th {
   padding: 10px 0;
   color: white;
   font-size: 18px;
   line-height: 26px;
   background-color: #2244aa;
 }
-table td {
+.food td {
   padding: 10px 0;
   font-size: 16px;
   line-height: 22px;
 }
-table th, table td {
+.food th, .food td {
   border: solid 1px #dedede;
 }
-table tr:first-child {
+.food tr:first-child {
   background-color: #2244aa;
 }
-table tr:last-child {
+.food tr:last-child {
   border-top: dashed 2px #000;
 }
-table tr:nth-child(2n+3) {
+.food tr:nth-child(2n+3) {
   background-color: #ecf1f2;
 }
 /* 回答はここに書いてね */

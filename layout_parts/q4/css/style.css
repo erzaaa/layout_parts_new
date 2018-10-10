@@ -19,8 +19,6 @@
 .upper-left {
   background-color: #fdc8b8;
   width: 100px;
-  display: table-cell;
-  padding: 20px;
 }
 .upper-right {
   background-color: #b6d8ed;
